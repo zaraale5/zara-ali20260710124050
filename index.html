@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zara Ali Beauty – Elevate Your Everyday</title>
+  <meta name="description" content="Shop curated, authentic beauty from Zara Ali. Discover makeup, skincare, hair, fragrance, and personalized recommendations for every tone and type. Sustainable. Empowering. Accessible.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-nav" href="#main" tabindex="1">Skip to main content</a>
+  <header class="header" aria-label="Site header">
+    <nav aria-label="Main navigation" class="nav">
+      <div class="container nav-container">
+        <a href="#hero" class="logo" aria-label="Go to homepage">Zara Ali</a>
+        <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="primary-menu" class="nav-links">
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#sustainability">Sustainability</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#howto">How-To</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section id="hero" class="hero animate-on-load">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Elevate <span aria-hidden="true">•</span> Celebrate <span aria-hidden="true">•</span> You</h1>
+          <p>Shop beauty that empowers you—authentic, inclusive, and expertly curated for all tones and types. Welcome to your best routine yet.</p>
+          <a href="#products" class="btn btn-primary">Shop Products</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-gradient"></div>
+          <img src="https://www.sephora.com/productimages/sku/s2981116-main-zoom.jpg?pb=clean-at-sephora&imwidth=400" alt="Highlight of our featured bronzer product" loading="lazy"/>
+        </div>
+      </div>
+    </section>
+    <section class="search-filters section-fade-in" id="search-filters" aria-label="Find your beauty match">
+      <div class="container">
+        <form class="filter-form" aria-label="Product filters">
+          <fieldset class="filter-grid">
+            <legend class="sr-only">Filter Products</legend>
+            <label>Category
+              <select name="category">
+                <option>All</option>
+                <option>Makeup</option>
+                <option>Skincare</option>
+                <option>Fragrance</option>
+                <option>Hair</option>
+                <option>Bath &amp; Body</option>
+              </select>
+            </label>
+            <label>Skin Type
+              <select name="skintype">
+                <option>All</option>
+                <option>Oily</option>
+                <option>Dry</option>
+                <option>Combination</option>
+                <option>Sensitive</option>
+              </select>
+            </label>
+            <label>Tone
+              <select name="tone">
+                <option>All</option>
+                <option>Light</option>
+                <option>Medium</option>
+                <option>Tan</option>
+                <option>Deep</option>
+              </select>
+            </label>
+            <label>Personalized
+              <input type="text" placeholder="e.g. for acne, hydration..." autocomplete="off" />
+            </label>
+            <button type="submit" class="btn btn-secondary">Find Products</button>
+          </fieldset>
+        </form>
+        <div class="personalization-tip">Not sure? <a href="#howto">Check out our beauty guides</a> for tailored routines.</div>
+      </div>
+    </section>
+    <section id="products" class="product-listing section-fade-in" aria-labelledby="products-heading">
+      <div class="container">
+        <h2 id="products-heading">Bestsellers &amp; New Arrivals</h2>
+        <div class="products-grid">
+          <!-- Card 1 -->
+          <article class="product-card">
+            <div class="product-image"><img src="https://www.sephora.com/productimages/sku/s2981116-main-zoom.jpg?imwidth=260" alt="rhode Pocket Bronze Cream Bronzer" /></div>
+            <div class="product-content">
+              <h3>rhode <span>-</span> Pocket Bronze Long-Wear Bronzer</h3>
+              <div class="product-rating" aria-label="Rated 4.6 out of 5 stars">
+                <span class="stars" aria-hidden="true">★★★★☆</span><span class="reviews-count">(268)</span>
+              </div>
+              <div class="product-price">$25.00</div>
+              <a href="#howto" class="btn btn-link">How to Use</a>
+              <button class="btn btn-add">Add to Basket</button>
+            </div>
+          </article>
+          <!-- Card 2 -->
+          <article class="product-card">
+            <div class="product-image"><img src="https://www.sephora.com/productimages/sku/s2249746-main-zoom.jpg?imwidth=260" alt="Yves Saint Laurent Libre Eau De Parfum" /></div>
+            <div class="product-content">
+              <h3>Yves Saint Laurent <span>-</span> Libre Eau De Parfum</h3>
+              <div class="product-rating" aria-label="Rated 4.7 out of 5 stars">
+                <span class="stars" aria-hidden="true">★★★★★</span><span class="reviews-count">(4.5K)</span>
+              </div>
+              <div class="product-price">$38.00 – $225.00</div>
+              <a href="#howto" class="btn btn-link">How to Apply</a>
+              <button class="btn btn-add">Add to Basket</button>
+            </div>
+          </article>
+          <!-- Card 3 -->
+          <article class="product-card">
+            <div class="product-image"><img src="https://www.sephora.com/productimages/sku/s2961324-main-zoom.jpg?imwidth=260" alt="LANEIGE Lip Sleeping Mask" /></div>
+            <div class="product-content">
+              <h3>LANEIGE <span>-</span> Lip Sleeping Mask</h3>
+              <div class="product-rating" aria-label="Rated 4.9 out of 5 stars">
+                <span class="stars" aria-hidden="true">★★★★★</span><span class="reviews-count">(22.3K)</span>
+              </div>
+              <div class="product-price">$24.00</div>
+              <a href="#howto" class="btn btn-link">Routine Ideas</a>
+              <button class="btn btn-add">Add to Basket</button>
+            </div>
+          </article>
+          <!-- Card 4 -->
+          <article class="product-card">
+            <div class="product-image"><img src="https://www.sephora.com/productimages/sku/s2979219-main-zoom.jpg?imwidth=260" alt="LANEIGE Balance Mode Kit" /></div>
+            <div class="product-content">
+              <h3>LANEIGE <span>-</span> Balance Mode Kit</h3>
+              <div class="product-rating" aria-label="Rated 4.8 out of 5 stars">
+                <span class="stars" aria-hidden="true">★★★★★</span><span class="reviews-count">(1.1K)</span>
+              </div>
+              <div class="product-price">$34.00</div>
+              <a href="#howto" class="btn btn-link">Skin Type Guide</a>
+              <button class="btn btn-add">Add to Basket</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="reviews section-fade-in" aria-labelledby="reviews-heading">
+      <div class="container">
+        <h2 id="reviews-heading">What Our Community Loves</h2>
+        <div class="reviews-grid">
+          <blockquote class="review-card">
+            <p>“Finally, a store that actually helps me find shades matching my skin! Plus, every product I tried so far is legit and amazing.”<span class="review-author">— Jamie K.</span></p>
+            <div class="community-image"><img src="https://randomuser.me/api/portraits/women/24.jpg" alt="Community member Jamie K." loading="lazy"></div>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>“Love their sustainability transparency and the tutorials make routines fun. I shop here with confidence!”<span class="review-author">— Priya P.</span></p>
+            <div class="community-image"><img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Community member Priya P." loading="lazy"></div>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>“Feels like this site is made for everyone—not just makeup pros! Eco packaging, clear guides, and so easy to navigate.”<span class="review-author">— Sam R.</span></p>
+            <div class="community-image"><img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Community member Sam R." loading="lazy"></div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section id="sustainability" class="sustainability section-fade-in" aria-labelledby="sustainability-heading">
+      <div class="container sustainability-flex">
+        <div>
+          <h2 id="sustainability-heading">Beauty with Integrity</h2>
+          <p>Our mission extends beyond beauty. <strong>Every product</strong> is cruelty-free &amp; ethically sourced. We prioritize recyclable packaging, refillable options, and support brands with transparent supply chains. Learn more about our efforts on our <a href="#">sustainability page</a>. </p>
+          <ul class="sustain-list">
+            <li><span aria-hidden="true">🌱</span> <span>Recyclable Shipping</span></li>
+            <li><span aria-hidden="true">🐰</span> <span>Cruelty-Free Only</span></li>
+            <li><span aria-hidden="true">🔎</span> <span>Brand Ingredient Transparency</span></li>
+            <li><span aria-hidden="true">♻️</span> <span>Refill Program</span></li>
+          </ul>
+        </div>
+        <img class="sustain-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=480&q=80" alt="Eco-friendly packaging on greenery"/>
+      </div>
+    </section>
+    <section id="community" class="community-showcase section-fade-in" aria-labelledby="community-heading">
+      <div class="container">
+        <h2 id="community-heading">Inspiration From You</h2>
+        <div class="community-grid">
+          <figure class="ugc-card">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=326&q=80" alt="User with glowing skin using Zara Ali skincare"/>
+            <figcaption>Radiant routines shared by @lucy.glows</figcaption>
+          </figure>
+          <figure class="ugc-card">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=326&q=80" alt="Makeup enthusiast showing vibrant blush looks"/>
+            <figcaption>Self-expression by @colorful_minds</figcaption>
+          </figure>
+          <figure class="ugc-card">
+            <img src="https://images.unsplash.com/photo-1518715308788-30057527ade5?auto=format&fit=crop&w=326&q=80" alt="Fragrance enthusiast misting perfume"/>
+            <figcaption>Signature scents by @aromadreams</figcaption>
+          </figure>
+        </div>
+        <p class="contribute-callout">Want to be featured? Tag us with <strong>#ZaraAliBeauty</strong> on socials or <a href="#">submit your look</a>.</p>
+      </div>
+    </section>
+    <section id="howto" class="howto-guides section-fade-in" aria-labelledby="howto-heading">
+      <div class="container">
+        <h2 id="howto-heading">Tutorials &amp; Routines</h2>
+        <div class="howto-flex">
+          <div class="howto-list">
+            <details>
+              <summary><span>Flawless Foundation for Every Tone</span></summary>
+              <p>Prep with moisturizer, use a damp sponge to blend foundation, and match your undertone using our shade-finder tool.</p>
+            </details>
+            <details>
+              <summary><span>Your Skincare Routine, Personalized</span></summary>
+              <p>Start with double cleansing, apply serums for your skin concern, and always finish with SPF. Still unsure? DM our beauty chat for tips!</p>
+            </details>
+            <details>
+              <summary><span>Dewy Summer Glow in 3 Steps</span></summary>
+              <p>Mix liquid highlighter with moisturizer, dab onto high points of the face, and set gently with a hydrating mist.</p>
+            </details>
+          </div>
+          <div class="howto-featured">
+            <img src="https://images.unsplash.com/photo-1519340333755-c35a9c6c80b7?auto=format&fit=crop&w=410&q=80" alt="Tutorial: glowy bronze makeup on diverse models" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="accessibility" class="accessibility-commit section-fade-in" aria-labelledby="accessibility-heading">
+      <div class="container">
+        <h2 id="accessibility-heading">Our Accessibility Commitment</h2>
+        <ul class="accessibility-list">
+          <li><strong>Skip navigation</strong> link at page top (visible on focus)</li>
+          <li>High-contrast text throughout; no color-only information</li>
+          <li>Detailed, descriptive alt text on all imagery</li>
+          <li>Keyboard tested navigation and forms</li>
+          <li>Screen reader friendly with logical heading order</li>
+          <li>Respects <code>prefers-reduced-motion</code> system setting</li>
+        </ul>
+        <p>Questions or feedback? <a href="#">Contact our accessibility team.</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-flex">
+      <div>
+        <strong>Zara Ali Beauty</strong> &copy; 2024 — Crafted for every shade of you.<br/>
+        <a href="#accessibility">Accessibility</a> | <a href="#sustainability">Sustainability</a> | <a href="#">Privacy</a>
+      </div>
+      <div class="footer-social">
+        <a aria-label="Instagram" href="#"><svg width="24" height="24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><rect x="8" y="8" width="8" height="8" rx="4" fill="currentColor" opacity=".4"/></svg></a>
+        <a aria-label="TikTok" href="#"><svg width="24" height="24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><path d="M15 7v4a3 3 0 11-3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
